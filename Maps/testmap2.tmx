@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.1" orientation="orthogonal" renderorder="right-down" width="16" height="14" tilewidth="16" tileheight="16" infinite="0" nextlayerid="7" nextobjectid="23">
+ <editorsettings>
+  <export target="testtilesexport2.tmx" format="tmx"/>
+ </editorsettings>
+ <tileset firstgid="1" name="b&amp;w" tilewidth="16" tileheight="16" tilecount="48" columns="6">
+  <image source="../Content/tileset2.png" width="96" height="128"/>
+ </tileset>
+ <layer id="1" name="background" width="16" height="14">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,3,
+7,6,30,30,30,18,30,30,30,30,19,20,30,24,12,9,
+7,30,19,20,30,30,12,12,30,30,25,26,30,30,30,9,
+7,30,25,26,30,30,30,6,30,30,30,30,30,30,18,9,
+38,30,30,30,30,30,16,17,18,30,30,30,30,12,30,9,
+22,22,22,22,22,23,6,30,24,30,30,6,30,30,30,9,
+28,28,28,28,28,29,30,30,30,30,30,30,30,19,20,9,
+34,34,34,34,34,35,30,24,30,19,20,30,30,25,26,9,
+32,30,30,30,30,30,30,30,30,25,26,30,30,30,30,9,
+7,30,30,12,12,30,30,30,30,30,30,30,30,30,30,9,
+7,6,30,19,20,24,30,6,30,30,30,18,30,30,30,9,
+7,18,30,25,26,30,12,12,30,30,6,12,12,30,30,9,
+13,14,14,14,14,14,14,14,14,14,14,14,14,14,14,15
+</data>
+ </layer>
+ <layer id="2" name="foreground" width="16" height="14">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,4,5,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,10,11,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="3" name="collisions">
+  <object id="1" x="99" y="76" width="26" height="15"/>
+  <object id="2" x="34" y="51" width="28" height="27"/>
+  <object id="4" x="50" y="179" width="28" height="27"/>
+  <object id="5" x="146" y="131" width="28" height="27"/>
+  <object id="6" x="210" y="115" width="28" height="27"/>
+  <object id="7" x="162" y="35" width="28" height="27"/>
+  <object id="10" x="0" y="16" width="16" height="80"/>
+  <object id="11" x="0" y="144" width="16" height="64"/>
+  <object id="13" x="16" y="16" width="240" height="16"/>
+  <object id="14" x="0" y="208" width="256" height="16"/>
+  <object id="21" x="240" y="32" width="16" height="176"/>
+ </objectgroup>
+ <objectgroup id="4" name="warps">
+  <object id="19" name="testmap1" type="test-transition" x="-12" y="99" width="1" height="42"/>
+ </objectgroup>
+ <objectgroup id="6" name="enemies">
+  <object id="22" name="BasicEnemy" x="160" y="96">
+   <point/>
+  </object>
+ </objectgroup>
+</map>

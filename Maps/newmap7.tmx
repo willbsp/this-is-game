@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.2.1" orientation="orthogonal" renderorder="right-down" width="16" height="14" tilewidth="16" tileheight="16" infinite="0" nextlayerid="8" nextobjectid="22">
+ <tileset firstgid="1" name="tilesetnew" tilewidth="16" tileheight="16" tilecount="440" columns="20">
+  <image source="../Content/tilesetnew.png" width="320" height="352"/>
+ </tileset>
+ <layer id="1" name="background" width="16" height="14">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,201,202,203,191,192,203,206,207,0,0,0,0,
+0,0,0,0,221,222,223,211,212,223,226,227,0,0,0,0,
+0,0,0,0,281,282,263,264,264,265,246,247,0,0,0,0,
+0,0,0,0,281,282,263,264,264,265,246,247,0,0,0,0,
+0,0,0,0,281,282,263,264,264,265,246,247,0,0,0,0,
+0,0,0,0,281,282,263,264,264,265,246,247,0,0,0,0,
+0,0,0,0,281,282,263,264,264,265,246,247,0,0,0,0,
+0,0,0,0,281,282,263,264,264,265,246,247,0,0,0,0,
+0,0,0,0,281,282,263,264,264,265,246,247,0,0,0,0,
+0,0,0,0,281,282,263,264,264,265,246,247,0,0,0,0,
+0,0,0,0,281,282,263,264,264,265,246,247,0,0,0,0,
+0,0,0,0,281,282,263,264,264,265,246,247,0,0,0,0,
+0,0,0,0,281,282,263,264,264,265,246,247,0,0,0,0
+</data>
+ </layer>
+ <layer id="5" name="foreground" width="16" height="14">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="6" name="keys"/>
+ <objectgroup id="7" name="doors"/>
+ <objectgroup id="2" name="warps">
+  <object id="1" name="newmap6" type="newmap-transition3" x="90" y="230" width="76" height="1"/>
+  <object id="21" name="newmap8" type="newmap-transition2" x="118" y="6" width="20" height="1"/>
+ </objectgroup>
+ <objectgroup id="3" name="enemies">
+  <object id="10" name="BasicEnemy" x="112" y="116">
+   <point/>
+  </object>
+  <object id="16" name="BasicEnemy" x="140" y="89">
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="4" name="collisions">
+  <object id="6" x="64" y="16" width="26" height="208"/>
+  <object id="15" x="166" y="16" width="26" height="208"/>
+  <object id="17" x="90" y="16" width="22" height="26"/>
+  <object id="18" x="144" y="16" width="22" height="26"/>
+  <object id="19" x="112" y="16" width="8" height="20"/>
+  <object id="20" x="136" y="16" width="8" height="20"/>
+ </objectgroup>
+</map>

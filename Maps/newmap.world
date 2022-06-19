@@ -1,0 +1,45 @@
+{
+    "maps": [
+        {
+            "fileName": "newmap2.tmx",
+            "x": 0,
+            "y": 0
+        },
+        {
+            "fileName": "newmap1.tmx",
+            "x": 256,
+            "y": 0
+        },
+        {
+            "fileName": "newmap4.tmx",
+            "x": 256,
+            "y": -208
+        },
+        {
+            "fileName": "newmap5.tmx",
+            "x": 0,
+            "y": -208
+        },
+        {
+            "fileName": "newmap3.tmx",
+            "x": -256,
+            "y": 0
+        },
+        {
+            "fileName": "newmap6.tmx",
+            "x": -256,
+            "y": -208
+        },
+        {
+            "fileName": "newmap7.tmx",
+            "x": -256,
+            "y": -416
+        },
+        {
+            "fileName": "newmap8.tmx",
+            "x": -184,
+            "y": -624
+        }
+    ],
+    "type": "world"
+}

@@ -1,0 +1,116 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "indoor1.tmx",
+    "expandedProjectPaths": [
+    ],
+    "file.lastUsedOpenFilter": "All Files (*)",
+    "fileStates": {
+        "indoor1.tmx": {
+            "scale": 3,
+            "selectedLayer": 5,
+            "viewCenter": {
+                "x": 139.49999999999997,
+                "y": 109
+            }
+        },
+        "indoor1.tmx#tilesetnew": {
+            "scaleInDock": 1
+        },
+        "newmap.tmx": {
+            "scale": 3,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 120.49999999999997,
+                "y": 121
+            }
+        },
+        "newmap.tmx#tilesetnew": {
+            "scaleInDock": 1
+        },
+        "newmap1.tmx": {
+            "scale": 3,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 115.83333333333333,
+                "y": 110.33333333333334
+            }
+        },
+        "newmap1.tmx#tilesetnew": {
+            "scaleInDock": 1
+        },
+        "newmap2.tmx": {
+            "scale": 3,
+            "selectedLayer": 5,
+            "viewCenter": {
+                "x": 151.83333333333331,
+                "y": 112.66666666666664
+            }
+        },
+        "newmap2.tmx#tilesetnew": {
+            "scaleInDock": 1
+        },
+        "testmap1.tmx": {
+            "scale": 3,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 145.16666666666666,
+                "y": 102
+            }
+        },
+        "testmap1.tmx#b&w": {
+            "scaleInDock": 1
+        },
+        "testmap2.tmx": {
+            "scale": 0.25,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": -58,
+                "y": -224
+            }
+        },
+        "testmap2.tmx#b&w": {
+            "scaleInDock": 1
+        },
+        "testmap3.tmx": {
+            "scale": 1.5,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 173.66666666666669,
+                "y": -103.33333333333331
+            }
+        },
+        "testmap3.tmx#b&w": {
+            "scaleInDock": 1
+        }
+    },
+    "loadedWorlds": [
+        "/home/will/Nextcloud/Documents/School/project computing/computing_project/computing_project/Maps/level.world"
+    ],
+    "map.height": 14,
+    "map.lastUsedFormat": "tmx",
+    "map.tileHeight": 16,
+    "map.tileWidth": 16,
+    "map.width": 16,
+    "openFiles": [
+        "indoor1.tmx",
+        "newmap1.tmx",
+        "newmap2.tmx"
+    ],
+    "project": "level.tiled-project",
+    "recentFiles": [
+        "newmap2.tmx",
+        "newmap1.tmx",
+        "indoor1.tmx",
+        "testmap1.tmx",
+        "testmap2.tmx",
+        "testmap3.tmx"
+    ],
+    "tileset.embedInMap": true,
+    "tileset.tileSize": {
+        "height": 16,
+        "width": 16
+    }
+}
